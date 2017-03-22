@@ -56,7 +56,7 @@ function draw() {
 
 	}
 
-	yvalue= map(beta, 30, 70, 0 , 1200); 
+	yvalue= map(beta, 30, 50, 0 , 1200); 
 	xvalue= map(gamma, -50, 50, 0, 900);
 	fill(fillR, fillG, fillB);
 	ellipse(xvalue, yvalue, 20, 20);
